@@ -1,10 +1,12 @@
+package sandbox;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SampleServer {
+public class SampleServerAsyncAccept {
     private ServerSocket serverSocket;
     private List<Socket> connectedClients = new ArrayList<Socket>();
     private boolean online;

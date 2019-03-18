@@ -1,3 +1,5 @@
+package users;
+
 import java.util.*;
 
 public class InMemoryUserDatabase implements UserRepository {

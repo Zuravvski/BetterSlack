@@ -10,6 +10,7 @@ public abstract class Channel {
     }
 
     public abstract void join(ChatClient client);
+    public abstract void leave(ChatClient client);
     public abstract void broadcast(ChatClient sender, String message);
 
     public void changeName(String name) {

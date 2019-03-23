@@ -68,6 +68,8 @@ public class TcpChatServer implements ChatServer {
     @Override
     public void clientDisconnected(ChatClient client) {
         onlineUsers.remove(client);
+        channelRepository.findByName(ChannelSettings.DEFAULT_CHANNEL_NAME)
+                .ifPresent(channel -> channel.leave(client));
         System.out.println("Client left the building. Clients online: " + onlineUsers.size());
     }
 }

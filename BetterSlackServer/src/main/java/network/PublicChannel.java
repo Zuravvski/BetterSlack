@@ -14,8 +14,15 @@ public class PublicChannel extends Channel {
     @Override
     public void join(ChatClient client) {
         channelClients.add(client);
-        System.out.println("New client has joined the channel");
-        System.out.println("Client in channel " + name + ": " + channelClients.size());
+        System.out.println("New client has joined " + name + " channel");
+        System.out.println("Clients in channel " + name + ": " + channelClients.size());
+    }
+
+    @Override
+    public void leave(ChatClient client) {
+        channelClients.remove(client);
+        System.out.println("Client has left " + name + " channel");
+        System.out.println("Clients in channel " + name + ": " + channelClients.size());
     }
 
     @Override
@@ -26,6 +33,4 @@ public class PublicChannel extends Channel {
 
         recipients.forEach(recipient -> recipient.sendMessage(message));
     }
-
-
 }

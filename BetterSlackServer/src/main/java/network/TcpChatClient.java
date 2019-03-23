@@ -50,7 +50,7 @@ public class TcpChatClient implements ChatClient {
 
             System.out.println(msg);
         } catch (IOException e) {
-            // TBD
+            disconnect();
         }
     }
 

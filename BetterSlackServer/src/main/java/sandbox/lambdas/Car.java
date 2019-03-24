@@ -1,4 +1,4 @@
-package lambdas;
+package sandbox.lambdas;
 
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package lambdas;
+package sandbox.lambdas;
 
 public class CarShopDemo {
     public static void main(String[] args) {

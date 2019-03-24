@@ -1,4 +1,4 @@
-package sandbox;
+package sandbox.serialization;
 
 import java.util.ArrayList;
 import java.util.List;

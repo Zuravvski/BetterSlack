@@ -1,4 +1,4 @@
-package sandbox;
+package sandbox.multithreading;
 
 public class Greeter implements Runnable {
     private final String name;

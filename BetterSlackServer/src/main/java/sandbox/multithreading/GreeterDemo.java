@@ -1,4 +1,4 @@
-package sandbox;
+package sandbox.multithreading;
 
 public class GreeterDemo {
     public static void main(String[] args) {

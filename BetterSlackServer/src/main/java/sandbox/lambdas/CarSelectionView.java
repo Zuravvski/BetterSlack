@@ -1,4 +1,4 @@
-package lambdas;
+package sandbox.lambdas;
 
 import java.util.ArrayList;
 import java.util.Arrays;

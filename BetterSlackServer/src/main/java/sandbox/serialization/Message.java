@@ -1,4 +1,4 @@
-package sandbox;
+package sandbox.serialization;
 
 import lombok.Getter;
 import lombok.Setter;

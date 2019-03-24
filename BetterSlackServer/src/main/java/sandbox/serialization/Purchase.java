@@ -1,4 +1,4 @@
-package sandbox;
+package sandbox.serialization;
 
 public class Purchase {
     private String productName;

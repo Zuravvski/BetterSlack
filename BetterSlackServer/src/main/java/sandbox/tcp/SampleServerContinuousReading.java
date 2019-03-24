@@ -1,4 +1,4 @@
-package sandbox;
+package sandbox.tcp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
